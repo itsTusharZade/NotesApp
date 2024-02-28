@@ -1,0 +1,18 @@
+"/Users/tusharzade/Desktop/TechExactly-Task/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardManager+Position.swift":
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Position.dia"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Position.d"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Position.swiftdeps"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Position.o"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Position.swiftconstvalues"
+"/Users/tusharzade/Desktop/TechExactly-Task/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardManager+Toolbar.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Toolbar.swiftdeps"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Toolbar.dia"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Toolbar.d"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Toolbar.o"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+Toolbar.swiftconstvalues"
+"/Users/tusharzade/Desktop/TechExactly-Task/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardManager+UIKeyboardNotification.swift":
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+UIKeyboardNotification.dia"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+UIKeyboardNotification.d"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+UIKeyboardNotification.swiftdeps"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+UIKeyboardNotification.swiftconstvalues"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardManager+UIKeyboardNotification.o"

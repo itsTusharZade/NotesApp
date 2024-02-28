@@ -154,7 +154,7 @@ public class RichEditorWebView: WKWebView {
         webView.scrollView.clipsToBounds = false
         addSubview(webView)
         
-        if let filePath = Bundle.module.url(forResource: "rich_editor", withExtension: "html") {
+        if let filePath = Bundle.main.url(forResource: "rich_editor", withExtension: "html") {
             webView.loadFileURL(filePath, allowingReadAccessTo: filePath.deletingLastPathComponent())
         }
         

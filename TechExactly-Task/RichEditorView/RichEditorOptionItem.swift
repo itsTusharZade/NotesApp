@@ -118,7 +118,7 @@ public enum RichEditorDefaultOption: RichEditorOption {
         case .table: name = "insert_table"
         }
         
-        return UIImage(named: name, in: .module, compatibleWith: nil)
+        return UIImage(named: name, in: .main, compatibleWith: nil)
     }
     
     public var title: String {

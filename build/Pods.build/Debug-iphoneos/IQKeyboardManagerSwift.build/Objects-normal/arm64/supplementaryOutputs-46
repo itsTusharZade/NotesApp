@@ -1,0 +1,18 @@
+"/Users/tusharzade/Desktop/TechExactly-Task/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift":
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIScrollView+Additions.d"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIScrollView+Additions.o"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIScrollView+Additions.swiftconstvalues"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIScrollView+Additions.dia"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIScrollView+Additions.swiftdeps"
+"/Users/tusharzade/Desktop/TechExactly-Task/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift":
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIView+Hierarchy.swiftconstvalues"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIView+Hierarchy.dia"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIView+Hierarchy.swiftdeps"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIView+Hierarchy.d"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUIView+Hierarchy.o"
+"/Users/tusharzade/Desktop/TechExactly-Task/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUITextFieldView+Additions.swiftdeps"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUITextFieldView+Additions.swiftconstvalues"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUITextFieldView+Additions.d"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUITextFieldView+Additions.o"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphoneos/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQUITextFieldView+Additions.dia"

@@ -1,0 +1,18 @@
+"/Users/tusharzade/Desktop/TechExactly-Task/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift":
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardReturnKeyHandler.o"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardReturnKeyHandler.swiftdeps"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardReturnKeyHandler.d"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardReturnKeyHandler.swiftconstvalues"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQKeyboardReturnKeyHandler.dia"
+"/Users/tusharzade/Desktop/TechExactly-Task/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQPreviousNextView.swiftdeps"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQPreviousNextView.dia"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQPreviousNextView.d"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQPreviousNextView.swiftconstvalues"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQPreviousNextView.o"
+"/Users/tusharzade/Desktop/TechExactly-Task/Pods/IQKeyboardManagerSwift/IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift":
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQNSArray+Sort.o"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQNSArray+Sort.dia"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQNSArray+Sort.swiftdeps"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQNSArray+Sort.swiftconstvalues"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/Objects-normal/arm64/IQNSArray+Sort.d"

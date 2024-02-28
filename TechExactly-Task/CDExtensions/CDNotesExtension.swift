@@ -6,3 +6,21 @@
 //
 
 import Foundation
+extension Notes{
+    func convertToNotes() -> NotesModel
+    {
+        print(self.id!)
+        print(self.title!)
+        print(self.note!)
+        print(self.created!)
+        print(self.modified!)
+        
+        return NotesModel(
+            _id: self.id!,
+            _title: self.title!,
+            _note: self.note!,
+            _created: self.created!,
+            _modified: self.modified!
+        )
+    }
+}

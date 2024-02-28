@@ -16,6 +16,9 @@ class ComposeNoteVC: UIViewController {
     
     var timer: Timer?
     var isTyping: Bool = false
+    private let manager: NotesManager = NotesManager()
+    var noteData: NotesModel?
+    var onCreate: (() -> Void)? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +26,12 @@ class ComposeNoteVC: UIViewController {
         doneItem.isHidden = true
         startObservingTyping()
         setupEditor()
+        
+        
     }
     
     @IBAction func doneItemDidTapped(_ sender: UIBarButtonItem) {
+        saveNote()
         self.view.endEditing(true)
     }
     
@@ -49,6 +55,27 @@ class ComposeNoteVC: UIViewController {
             editorView.trailingAnchor.constraint(equalTo: sa.trailingAnchor),
             editorView.bottomAnchor.constraint(equalTo: sa.bottomAnchor)
         ])
+        if let noteData {
+            editorView.html = noteData.note
+        }
+    }
+    
+    func saveNote(){
+        if let noteData {
+            let note = NotesModel(_id: noteData.id, _title: noteData.title , _note: prevText, _created: noteData.created, _modified: Date())
+            if manager.updateNote(product: note) {
+                print("Note updated successfully")
+            }
+        } else {
+            if !prevText.isEmpty{
+                let title = prevText.components(separatedBy: ".")
+                let note = NotesModel(_id: UUID(), _title: title.first ?? "", _note: prevText, _created: Date(), _modified: Date())
+                manager.createNote(record: note) { note in
+                    self.noteData = note
+                }
+            }
+        }
+        onCreate?()
     }
     
     func startObservingTyping() {
@@ -59,17 +86,19 @@ class ComposeNoteVC: UIViewController {
     @objc func keyboardDidShow() {
         isTyping = true
         doneItem.isHidden = false
+        saveNote()
 //        self.navigationItem.rightBarButtonItems = [doneItem]
     }
     
     @objc func keyboardDidHide() {
         isTyping = false
         doneItem.isHidden = true
+        saveNote()
     }
     
     func resetTimer() {
         timer?.invalidate()
-        timer = Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(timerExpired), userInfo: nil, repeats: false)
+        timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(timerExpired), userInfo: nil, repeats: false)
     }
     
     @objc func timerExpired() {
@@ -77,6 +106,7 @@ class ComposeNoteVC: UIViewController {
             
             print("User is not typing. Performing some action...")
         }
+        saveNote()
         print("User is not typing. Performing some action...")
         timer?.invalidate()
     }
@@ -87,7 +117,6 @@ extension ComposeNoteVC: RichEditorDelegate{
     func richEditor(_ editor: RichEditorView, contentDidChange content: String) {
         isTyping = true
         resetTimer()
-        print("Content ---- > \(content)")
         if content.count > 40000 {
             editor.html = prevText
         } else {

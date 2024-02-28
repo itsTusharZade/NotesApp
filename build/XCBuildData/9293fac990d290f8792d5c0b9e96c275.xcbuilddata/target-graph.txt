@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'TechExactly-Task' in project 'TechExactly-Task'
+➜ Implicit dependency on target 'Pods-TechExactly-Task' in project 'Pods' via file 'Pods_TechExactly_Task.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'IQKeyboardManagerSwift' in project 'Pods' via options '-framework IQKeyboardManagerSwift' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-TechExactly-Task' in project 'Pods'
+➜ Explicit dependency on target 'IQKeyboardManagerSwift' in project 'Pods'
+Target 'IQKeyboardManagerSwift' in project 'Pods' (no dependencies)
