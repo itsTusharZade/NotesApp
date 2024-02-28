@@ -1,0 +1,18 @@
+"/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/RichEditorView/UIColor+Extensions.swift":
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIColor+Extensions.swiftconstvalues"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIColor+Extensions.d"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIColor+Extensions.swiftdeps"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIColor+Extensions.dia"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIColor+Extensions.o"
+"/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Repositories/NotesRepository.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/NotesRepository.swiftdeps"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/NotesRepository.o"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/NotesRepository.d"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/NotesRepository.swiftconstvalues"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/NotesRepository.dia"
+"/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Config/AppDelegate.swift":
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/AppDelegate.d"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/AppDelegate.o"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/AppDelegate.swiftdeps"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/AppDelegate.dia"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/AppDelegate.swiftconstvalues"

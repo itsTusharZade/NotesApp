@@ -321,8 +321,10 @@ SWIFT_CLASS("_TtC16TechExactly_Task11AppDelegate")
 SWIFT_CLASS("_TtC16TechExactly_Task13ComposeNoteVC")
 @interface ComposeNoteVC : UIViewController
 @property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified doneItem;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified deleteItem;
 - (void)viewDidLoad;
 - (IBAction)doneItemDidTapped:(UIBarButtonItem * _Nonnull)sender;
+- (IBAction)deleteItemDidTapped:(UIBarButtonItem * _Nonnull)sender;
 - (void)keyboardDidShow;
 - (void)keyboardDidHide;
 - (void)timerExpired;
@@ -386,7 +388,6 @@ SWIFT_PROTOCOL("_TtP16TechExactly_Task18RichEditorDelegate_")
 
 @interface ComposeNoteVC (SWIFT_EXTENSION(TechExactly_Task)) <RichEditorDelegate>
 - (void)richEditor:(RichEditorView * _Nonnull)editor contentDidChange:(NSString * _Nonnull)content;
-- (void)richEditorLostFocus:(RichEditorView * _Nonnull)editor;
 - (void)richEditorTookFocus:(RichEditorView * _Nonnull)editor;
 @end
 
@@ -608,22 +609,6 @@ SWIFT_CLASS("_TtC16TechExactly_Task13SceneDelegate")
 
 
 
-SWIFT_CLASS("_TtC16TechExactly_Task14ViewController")
-@interface ViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface ViewController (SWIFT_EXTENSION(TechExactly_Task)) <RichEditorDelegate>
-- (void)richEditor:(RichEditorView * _Nonnull)editor contentDidChange:(NSString * _Nonnull)content;
-@end
-
-
-@interface ViewController (SWIFT_EXTENSION(TechExactly_Task)) <RichEditorToolbarDelegate>
-- (void)richEditorToolbarInsertLink:(RichEditorToolbar * _Nonnull)toolbar;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)

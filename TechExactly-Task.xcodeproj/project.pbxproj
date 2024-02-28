@@ -12,7 +12,6 @@
 		A12F84325A8273CFB6ECD9E8 /* Pods_TechExactly_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B413B7B9C65E07C45C99B13 /* Pods_TechExactly_TaskTests.framework */; };
 		BD4C6E962B8E470D007EAD5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C6E952B8E470D007EAD5D /* AppDelegate.swift */; };
 		BD4C6E982B8E470D007EAD5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C6E972B8E470D007EAD5D /* SceneDelegate.swift */; };
-		BD4C6E9A2B8E470D007EAD5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C6E992B8E470D007EAD5D /* ViewController.swift */; };
 		BD4C6E9D2B8E470D007EAD5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4C6E9B2B8E470D007EAD5D /* Main.storyboard */; };
 		BD4C6EA02B8E470D007EAD5D /* TechExactly_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD4C6E9E2B8E470D007EAD5D /* TechExactly_Task.xcdatamodeld */; };
 		BD4C6EA52B8E470E007EAD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4C6EA32B8E470E007EAD5D /* LaunchScreen.storyboard */; };
@@ -45,6 +44,8 @@
 		BD4C6EFF2B8E6989007EAD5D /* NotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C6EFE2B8E6989007EAD5D /* NotesManager.swift */; };
 		BD4C6F032B8E75CD007EAD5D /* StringProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C6F022B8E75CD007EAD5D /* StringProtocol.swift */; };
 		BD4C6F052B8E770F007EAD5D /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C6F042B8E770F007EAD5D /* Date+Ext.swift */; };
+		BD4C6F072B8F9C6A007EAD5D /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C6F062B8F9C6A007EAD5D /* UIViewController+Ext.swift */; };
+		BD4C6F092B8F9F5B007EAD5D /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C6F082B8F9F5B007EAD5D /* UITableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +78,6 @@
 		BD4C6E922B8E470D007EAD5D /* TechExactly-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TechExactly-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4C6E952B8E470D007EAD5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD4C6E972B8E470D007EAD5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD4C6E992B8E470D007EAD5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD4C6E9C2B8E470D007EAD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD4C6E9F2B8E470D007EAD5D /* TechExactly_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechExactly_Task.xcdatamodel; sourceTree = "<group>"; };
 		BD4C6EA42B8E470E007EAD5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,6 +113,8 @@
 		BD4C6EFE2B8E6989007EAD5D /* NotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesManager.swift; sourceTree = "<group>"; };
 		BD4C6F022B8E75CD007EAD5D /* StringProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProtocol.swift; sourceTree = "<group>"; };
 		BD4C6F042B8E770F007EAD5D /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		BD4C6F062B8F9C6A007EAD5D /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		BD4C6F082B8F9F5B007EAD5D /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,10 @@
 		BD4C6E942B8E470D007EAD5D /* TechExactly-Task */ = {
 			isa = PBXGroup;
 			children = (
+				BD4C6F0D2B8FA3FD007EAD5D /* Utils */,
+				BD4C6F0C2B8FA21C007EAD5D /* Config */,
+				BD4C6F0B2B8FA20A007EAD5D /* Resource */,
+				BD4C6F0A2B8FA1F6007EAD5D /* Storyboards */,
 				BD4C6F012B8E75BE007EAD5D /* Extensions */,
 				BD4C6F002B8E6A2C007EAD5D /* Controllers */,
 				BD4C6EFD2B8E697A007EAD5D /* Manager */,
@@ -176,15 +182,6 @@
 				BD4C6EF02B8E64EA007EAD5D /* Repositories */,
 				BD4C6EEB2B8E64B5007EAD5D /* CoreDataFiles */,
 				BD4C6EC82B8E4932007EAD5D /* RichEditorView */,
-				BD4C6E952B8E470D007EAD5D /* AppDelegate.swift */,
-				BD4C6E972B8E470D007EAD5D /* SceneDelegate.swift */,
-				BD4C6E992B8E470D007EAD5D /* ViewController.swift */,
-				BD4C6E9B2B8E470D007EAD5D /* Main.storyboard */,
-				BD4C6EE32B8E4AC9007EAD5D /* Assets.xcassets */,
-				BD4C6EA32B8E470E007EAD5D /* LaunchScreen.storyboard */,
-				BD4C6EA62B8E470E007EAD5D /* Info.plist */,
-				BD4C6E9E2B8E470D007EAD5D /* TechExactly_Task.xcdatamodeld */,
-				BD4C6EE72B8E57D3007EAD5D /* AppStoryboard.swift */,
 			);
 			path = "TechExactly-Task";
 			sourceTree = "<group>";
@@ -298,8 +295,46 @@
 			children = (
 				BD4C6F022B8E75CD007EAD5D /* StringProtocol.swift */,
 				BD4C6F042B8E770F007EAD5D /* Date+Ext.swift */,
+				BD4C6F062B8F9C6A007EAD5D /* UIViewController+Ext.swift */,
+				BD4C6F082B8F9F5B007EAD5D /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BD4C6F0A2B8FA1F6007EAD5D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C6E9B2B8E470D007EAD5D /* Main.storyboard */,
+				BD4C6EA32B8E470E007EAD5D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BD4C6F0B2B8FA20A007EAD5D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C6EE32B8E4AC9007EAD5D /* Assets.xcassets */,
+				BD4C6E9E2B8E470D007EAD5D /* TechExactly_Task.xcdatamodeld */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BD4C6F0C2B8FA21C007EAD5D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C6E952B8E470D007EAD5D /* AppDelegate.swift */,
+				BD4C6E972B8E470D007EAD5D /* SceneDelegate.swift */,
+				BD4C6EA62B8E470E007EAD5D /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		BD4C6F0D2B8FA3FD007EAD5D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C6EE72B8E57D3007EAD5D /* AppStoryboard.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D3296916608124B40A874FE8 /* Pods */ = {
@@ -575,7 +610,7 @@
 				BD4C6EFF2B8E6989007EAD5D /* NotesManager.swift in Sources */,
 				BD4C6ECE2B8E4A7F007EAD5D /* String+Extensions.swift in Sources */,
 				BD4C6EFC2B8E6810007EAD5D /* CDNotesExtension.swift in Sources */,
-				BD4C6E9A2B8E470D007EAD5D /* ViewController.swift in Sources */,
+				BD4C6F072B8F9C6A007EAD5D /* UIViewController+Ext.swift in Sources */,
 				BD4C6EF22B8E6527007EAD5D /* BaseRepository.swift in Sources */,
 				BD4C6EEF2B8E64CE007EAD5D /* Notes+CoreDataProperties.swift in Sources */,
 				BD4C6ED12B8E4A7F007EAD5D /* RichEditorToolbar.swift in Sources */,
@@ -591,6 +626,7 @@
 				BD4C6F052B8E770F007EAD5D /* Date+Ext.swift in Sources */,
 				BD4C6EE82B8E57D3007EAD5D /* AppStoryboard.swift in Sources */,
 				BD4C6EF72B8E65BF007EAD5D /* NotesModel.swift in Sources */,
+				BD4C6F092B8F9F5B007EAD5D /* UITableView+Ext.swift in Sources */,
 				BD4C6EEA2B8E5831007EAD5D /* ComposeNoteVC.swift in Sources */,
 				BD4C6EEE2B8E64CE007EAD5D /* Notes+CoreDataClass.swift in Sources */,
 			);
@@ -777,7 +813,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TechExactly-Task/Info.plist";
+				INFOPLIST_FILE = "TechExactly-Task/Config/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -806,7 +842,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "TechExactly-Task/Info.plist";
+				INFOPLIST_FILE = "TechExactly-Task/Config/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -1,0 +1,18 @@
+"/Users/tusharzade/Desktop/TechExactly-Task/Notes+CoreDataProperties.swift":
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/Notes+CoreDataProperties.swiftconstvalues"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/Notes+CoreDataProperties.o"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/Notes+CoreDataProperties.dia"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/Notes+CoreDataProperties.d"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/Notes+CoreDataProperties.swiftdeps"
+"/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/RichEditorView/RichEditorToolbar.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorToolbar.swiftdeps"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorToolbar.dia"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorToolbar.o"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorToolbar.swiftconstvalues"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorToolbar.d"
+"/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/RichEditorView/RichEditorView.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorView.swiftdeps"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorView.o"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorView.swiftconstvalues"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorView.dia"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/RichEditorView.d"

@@ -1,0 +1,18 @@
+"/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Extensions/UIViewController+Ext.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIViewController+Ext.swiftdeps"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIViewController+Ext.d"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIViewController+Ext.swiftconstvalues"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIViewController+Ext.dia"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/UIViewController+Ext.o"
+"/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Repositories/BaseRepository.swift":
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/BaseRepository.swiftconstvalues"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/BaseRepository.d"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/BaseRepository.dia"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/BaseRepository.o"
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/BaseRepository.swiftdeps"
+"/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/CDExtensions/CDNotesExtension.swift":
+  swift-dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/CDNotesExtension.swiftdeps"
+  object: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/CDNotesExtension.o"
+  const-values: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/CDNotesExtension.swiftconstvalues"
+  diagnostics: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/CDNotesExtension.dia"
+  dependencies: "/Users/tusharzade/Desktop/TechExactly-Task/build/TechExactly-Task.build/Debug-iphonesimulator/TechExactly-Task.build/Objects-normal/arm64/CDNotesExtension.d"

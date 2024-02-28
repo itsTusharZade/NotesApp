@@ -222,7 +222,9 @@ function createCheckbox(id) {
     d.setAttribute("type", "checkbox");
     d.setAttribute("name", id);
     if(el.checked) {
-        d.setAttribute("checked", null);
+        d.setAttribute("checked", true);
+    } else {
+        d.setAttribute("checked", false);
     }
     el.parentNode.insertBefore(d, el);
     el.parentNode.removeChild(el);
@@ -234,6 +236,12 @@ RE.setCheckbox = function(id) {
     var el = document.createElement("input");
     el.setAttribute("type", "checkbox");
     el.setAttribute("name", id);
+//    el.setAttribute("checked", true);
+//    if(el.checked) {
+//        el.setAttribute("checked", false);
+//    } else {
+//        el.setAttribute("checked", true);
+//    }
     RE.insertHTML("&nbsp;" + el.outerHTML + "&nbsp;");
     el = document.querySelector("input[name='" + id + "']");
     el.addEventListener("change", function() {createCheckbox(id);});

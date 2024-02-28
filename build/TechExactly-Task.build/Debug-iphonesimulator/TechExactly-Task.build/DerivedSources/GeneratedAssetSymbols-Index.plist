@@ -8,7 +8,7 @@
 	<array>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameBgColor</string>
 			<key>relativePath</key>
@@ -18,7 +18,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameBold</string>
 			<key>relativePath</key>
@@ -28,7 +28,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameCheckbox</string>
 			<key>relativePath</key>
@@ -38,7 +38,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameClear</string>
 			<key>relativePath</key>
@@ -48,7 +48,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameH1</string>
 			<key>relativePath</key>
@@ -58,7 +58,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameH2</string>
 			<key>relativePath</key>
@@ -68,7 +68,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameH3</string>
 			<key>relativePath</key>
@@ -78,7 +78,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameH4</string>
 			<key>relativePath</key>
@@ -88,7 +88,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameH5</string>
 			<key>relativePath</key>
@@ -98,7 +98,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameH6</string>
 			<key>relativePath</key>
@@ -108,7 +108,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameIndent</string>
 			<key>relativePath</key>
@@ -118,7 +118,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameInsertImage</string>
 			<key>relativePath</key>
@@ -128,7 +128,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameInsertLink</string>
 			<key>relativePath</key>
@@ -138,7 +138,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameInsertTable</string>
 			<key>relativePath</key>
@@ -148,7 +148,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameInsertVideo</string>
 			<key>relativePath</key>
@@ -158,7 +158,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameItalic</string>
 			<key>relativePath</key>
@@ -168,7 +168,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameJustifyCenter</string>
 			<key>relativePath</key>
@@ -178,7 +178,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameJustifyLeft</string>
 			<key>relativePath</key>
@@ -188,7 +188,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameJustifyRight</string>
 			<key>relativePath</key>
@@ -198,7 +198,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameOrderedList</string>
 			<key>relativePath</key>
@@ -208,7 +208,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameOutdent</string>
 			<key>relativePath</key>
@@ -218,7 +218,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameRedo</string>
 			<key>relativePath</key>
@@ -228,7 +228,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameStrikethrough</string>
 			<key>relativePath</key>
@@ -238,7 +238,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameSubscript</string>
 			<key>relativePath</key>
@@ -248,7 +248,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameSuperscript</string>
 			<key>relativePath</key>
@@ -258,7 +258,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameTextColor</string>
 			<key>relativePath</key>
@@ -268,7 +268,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameUnderline</string>
 			<key>relativePath</key>
@@ -278,7 +278,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameUndo</string>
 			<key>relativePath</key>
@@ -288,7 +288,7 @@
 		</dict>
 		<dict>
 			<key>catalogPath</key>
-			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Assets.xcassets</string>
+			<string>/Users/tusharzade/Desktop/TechExactly-Task/TechExactly-Task/Resource/Assets.xcassets</string>
 			<key>objcSymbol</key>
 			<string>ACImageNameUnorderedList</string>
 			<key>relativePath</key>

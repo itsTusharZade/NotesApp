@@ -36,7 +36,16 @@ class NotesListVC: UIViewController {
     }
     
     private let manager: NotesManager = NotesManager()
-    var notes: [NotesModel] = []
+    var notes: [NotesModel] = []{
+        didSet{
+            self.notesListTblView.reloadData()
+            if notes.count == 0 {
+                self.notesListTblView.setEmptyMessage("No Notes Available")
+            } else {
+                self.notesListTblView.restore()
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,10 +64,7 @@ class NotesListVC: UIViewController {
     }
     
     func getNotes(){
-        if let notes = manager.fetchNotes(){
-            self.notes = notes
-            self.notesListTblView.reloadData()
-        }
+        self.notes = manager.fetchNotes() ?? []
     }
 
 }
@@ -89,9 +95,10 @@ extension NotesListVC: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { _, _, complete in
-            if self.manager.deleteProduct(id: self.notes[indexPath.row].id) {
-                self.notes.remove(at: indexPath.row)
-                self.notesListTblView.deleteRows(at: [indexPath], with: .automatic)
+            self.deleteAlert(title: "Delete?", message: "Are you sure you want delete this note?") { success in
+                if self.manager.deleteProduct(id: self.notes[indexPath.row].id) {
+                    self.notes.remove(at: indexPath.row)
+                }
             }
             complete(true)
         }

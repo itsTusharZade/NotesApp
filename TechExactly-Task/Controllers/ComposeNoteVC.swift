@@ -10,15 +10,18 @@ import UIKit
 class ComposeNoteVC: UIViewController {
     
     @IBOutlet weak var doneItem: UIBarButtonItem!
+    @IBOutlet weak var deleteItem: UIBarButtonItem!
+    
+    
     let editorView = RichEditorView()
     var prevText: String!
     let toolbar = RichEditorToolbar()
     
     var timer: Timer?
-    var isTyping: Bool = false
     private let manager: NotesManager = NotesManager()
     var noteData: NotesModel?
     var onCreate: (() -> Void)? = nil
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,8 +29,6 @@ class ComposeNoteVC: UIViewController {
         doneItem.isHidden = true
         startObservingTyping()
         setupEditor()
-        
-        
     }
     
     @IBAction func doneItemDidTapped(_ sender: UIBarButtonItem) {
@@ -35,7 +36,15 @@ class ComposeNoteVC: UIViewController {
         self.view.endEditing(true)
     }
     
-
+    @IBAction func deleteItemDidTapped(_ sender: UIBarButtonItem) {
+        self.deleteAlert(title: "Delete?", message: "Are you sure you want delete this note?") { success in
+            if let noteData = self.noteData , self.manager.deleteProduct(id: noteData.id){
+                self.onCreate?()
+                self.navigationController?.popViewController(animated: true)
+            }
+        }
+    }
+    
     func setupEditor(){
         additionalSafeAreaInsets = .init(top: 6, left: 12, bottom: 0, right: 12)
         editorView.translatesAutoresizingMaskIntoConstraints = false
@@ -43,7 +52,20 @@ class ComposeNoteVC: UIViewController {
         editorView.editingEnabled = true
         editorView.placeholder = "Press to start typing"
         toolbar.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: 44)
-        toolbar.options = RichEditorDefaultOption.all
+        toolbar.options = [
+            RichEditorDefaultOption.bold,
+            RichEditorDefaultOption.italic,
+            RichEditorDefaultOption.underline,
+            RichEditorDefaultOption.checkbox,
+            RichEditorDefaultOption.orderedList,
+            RichEditorDefaultOption.unorderedList,
+            RichEditorDefaultOption.indent,
+            RichEditorDefaultOption.outdent,
+            RichEditorDefaultOption.alignLeft,
+            RichEditorDefaultOption.alignRight,
+            RichEditorDefaultOption.alignCenter
+        ]
+        
         toolbar.editor = editorView
         toolbar.delegate = self
         editorView.inputAccessoryView = toolbar
@@ -56,7 +78,10 @@ class ComposeNoteVC: UIViewController {
             editorView.bottomAnchor.constraint(equalTo: sa.bottomAnchor)
         ])
         if let noteData {
+            self.deleteItem.isHidden = false
             editorView.html = noteData.note
+        } else {
+            self.deleteItem.isHidden = true
         }
     }
     
@@ -84,14 +109,11 @@ class ComposeNoteVC: UIViewController {
     }
     
     @objc func keyboardDidShow() {
-        isTyping = true
         doneItem.isHidden = false
         saveNote()
-//        self.navigationItem.rightBarButtonItems = [doneItem]
     }
     
     @objc func keyboardDidHide() {
-        isTyping = false
         doneItem.isHidden = true
         saveNote()
     }
@@ -102,12 +124,7 @@ class ComposeNoteVC: UIViewController {
     }
     
     @objc func timerExpired() {
-        if !isTyping {
-            
-            print("User is not typing. Performing some action...")
-        }
         saveNote()
-        print("User is not typing. Performing some action...")
         timer?.invalidate()
     }
 
@@ -115,17 +132,12 @@ class ComposeNoteVC: UIViewController {
 
 extension ComposeNoteVC: RichEditorDelegate{
     func richEditor(_ editor: RichEditorView, contentDidChange content: String) {
-        isTyping = true
         resetTimer()
         if content.count > 40000 {
             editor.html = prevText
         } else {
             prevText = content
         }
-    }
-    
-    func richEditorLostFocus(_ editor: RichEditorView) {
-        print("Rich Editor Lost Focus")
     }
     
     func richEditorTookFocus(_ editor: RichEditorView) {
